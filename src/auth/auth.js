@@ -10,7 +10,7 @@ passport.use(
     {
       clientID: config.googleClientId,
       clientSecret: config.googleClientSecret,
-      callbackURL: "http://localhost:3000/auth/google/callback",
+      callbackURL: config.googleRedirectUri,
     },
     (accessToken, refreshToken, profile, done) => done(null, profile)
   )

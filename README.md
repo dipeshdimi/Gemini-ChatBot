@@ -1,12 +1,12 @@
 # GEMINI CHATBOT
 1. To run this application, set the .env file with the following keys :-
-```
-GEMINI_API_KEY=
-GOOGLE_CLIENT_ID=
-GOOGLE_CLIENT_SECRET=
-GOOGLE_REDIRECT_URI=http://localhost:3000/auth/google/callback
-PORT=3000
-```
+   ```
+   GEMINI_API_KEY=
+   GOOGLE_CLIENT_ID=
+   GOOGLE_CLIENT_SECRET=
+   GOOGLE_REDIRECT_URI=http://localhost:3000/auth/google/callback
+   PORT=3000
+   ```
 
 2. Install dependencies with
    ```
